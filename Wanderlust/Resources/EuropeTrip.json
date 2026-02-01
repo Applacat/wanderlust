@@ -1,0 +1,352 @@
+{
+  "tripName": "European Adventure",
+  "travelers": ["Alex", "Jordan"],
+  "days": [
+    {
+      "date": "2026-06-15",
+      "destination": "Paris, France",
+      "timedActivities": [
+        {
+          "time": "9:00 AM",
+          "place": "Eiffel Tower",
+          "what": "Morning visit before crowds",
+          "context": "Book summit tickets in advance. The elevator lines get long after 10am.",
+          "priority": "mustDo",
+          "emotionalTagline": "The icon that launched a thousand postcards",
+          "dontMiss": ["Summit view at sunrise", "Champagne bar on top floor"],
+          "practicalTips": ["Wear comfortable shoes", "Bring a light jacket for the top"]
+        },
+        {
+          "time": "12:30 PM",
+          "place": "Café de Flore",
+          "what": "Classic Parisian lunch",
+          "context": "Historic café in Saint-Germain. Hemingway and Picasso were regulars.",
+          "priority": "flexible",
+          "emotionalTagline": "Where existentialism was invented over espresso"
+        },
+        {
+          "time": "2:30 PM",
+          "place": "Louvre Museum",
+          "what": "Mona Lisa and highlights tour",
+          "context": "Go straight to the Denon wing for Italian masters. Skip the main entrance - use Porte des Lions.",
+          "priority": "mustDo",
+          "emotionalTagline": "3,000 years of human creativity under one roof",
+          "dontMiss": ["Mona Lisa", "Winged Victory", "Venus de Milo"],
+          "practicalTips": ["Download the museum app", "Wednesday and Friday open until 9:45pm"]
+        },
+        {
+          "time": "7:00 PM",
+          "place": "Seine River Cruise",
+          "what": "Sunset dinner cruise",
+          "context": "Bateaux Mouches departs from Pont de l'Alma. Book the dinner option.",
+          "priority": "flexible",
+          "emotionalTagline": "Paris glitters differently from the water"
+        }
+      ],
+      "untimedActivities": [
+        {
+          "place": "Le Marais",
+          "what": "Wander the historic Jewish quarter",
+          "context": "Great for vintage shopping and falafel. L'As du Fallafel is the famous one.",
+          "priority": "flexible",
+          "category": "Tip"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-16",
+      "destination": "Paris, France",
+      "timedActivities": [
+        {
+          "time": "9:30 AM",
+          "place": "Musée d'Orsay",
+          "what": "Impressionist masterpieces",
+          "context": "Former railway station. The Impressionist collection on the 5th floor is unmissable.",
+          "priority": "mustDo",
+          "emotionalTagline": "Where Monet, Van Gogh, and Renoir live together",
+          "dontMiss": ["Starry Night Over the Rhône", "Luncheon on the Grass"]
+        },
+        {
+          "time": "1:00 PM",
+          "place": "Montmartre",
+          "what": "Explore the artist's quarter",
+          "context": "Take the funicular up to Sacré-Cœur. The view of Paris is worth the climb.",
+          "priority": "flexible",
+          "emotionalTagline": "Cobblestones that remember Toulouse-Lautrec"
+        },
+        {
+          "time": "4:00 PM",
+          "place": "Sacré-Cœur Basilica",
+          "what": "Visit the white-domed church",
+          "context": "Free entry. The dome climb (300 steps) gives the best panoramic view of Paris.",
+          "priority": "flexible",
+          "emotionalTagline": "A wedding cake overlooking the city of light"
+        },
+        {
+          "time": "8:00 PM",
+          "place": "Le Comptoir du Panthéon",
+          "what": "Traditional French dinner",
+          "context": "Classic bistro near the Panthéon. Try the duck confit.",
+          "priority": "flexible",
+          "emotionalTagline": "The kind of place where locals actually eat"
+        }
+      ],
+      "untimedActivities": [
+        {
+          "place": "Shakespeare and Company",
+          "what": "Browse the legendary bookstore",
+          "context": "Across from Notre-Dame. Bring cash - they don't take cards for small purchases.",
+          "priority": "flexible",
+          "category": "Tip"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-17",
+      "destination": "Paris → Amsterdam",
+      "timedActivities": [
+        {
+          "time": "8:00 AM",
+          "place": "Paris Gare du Nord",
+          "what": "Thalys train to Amsterdam",
+          "context": "3 hours 20 minutes. Arrive 30 minutes early for boarding.",
+          "priority": "mustDo",
+          "emotionalTagline": "Breakfast in Paris, lunch in Amsterdam"
+        },
+        {
+          "time": "11:20 AM",
+          "place": "Amsterdam Centraal",
+          "what": "Arrive in Amsterdam",
+          "context": "Drop bags at hotel, grab a stroopwafel from the station.",
+          "priority": "mustDo"
+        },
+        {
+          "time": "2:00 PM",
+          "place": "Anne Frank House",
+          "what": "Tour the secret annex",
+          "context": "Tickets sell out weeks in advance. Book online - no walk-ups allowed.",
+          "priority": "mustDo",
+          "emotionalTagline": "Where a diary became a testament",
+          "urgentNote": "Tickets MUST be booked online in advance. No exceptions.",
+          "practicalTips": ["Allow 90 minutes", "Photography not allowed inside"]
+        },
+        {
+          "time": "5:00 PM",
+          "place": "Jordaan District",
+          "what": "Explore canals and cafés",
+          "context": "The prettiest neighborhood. Great for canal-side drinks.",
+          "priority": "flexible",
+          "emotionalTagline": "Amsterdam's postcard district"
+        }
+      ],
+      "untimedActivities": [
+        {
+          "place": "Febo",
+          "what": "Try Dutch fast food from a wall",
+          "context": "Automated vending wall with hot snacks. The kroket is a must-try.",
+          "priority": "flexible",
+          "category": "Food"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-18",
+      "destination": "Amsterdam, Netherlands",
+      "timedActivities": [
+        {
+          "time": "9:00 AM",
+          "place": "Rijksmuseum",
+          "what": "Dutch Golden Age masters",
+          "context": "Start with the Night Watch, then work backward through the galleries.",
+          "priority": "mustDo",
+          "emotionalTagline": "Rembrandt's home turf",
+          "dontMiss": ["The Night Watch", "The Milkmaid", "The Jewish Bride"]
+        },
+        {
+          "time": "12:30 PM",
+          "place": "Albert Cuyp Market",
+          "what": "Street food lunch",
+          "context": "Biggest street market in Europe. Try the herring, stroopwafels, and kibbeling.",
+          "priority": "flexible",
+          "emotionalTagline": "If Amsterdam had a stomach, this would be it"
+        },
+        {
+          "time": "2:30 PM",
+          "place": "Van Gogh Museum",
+          "what": "World's largest Van Gogh collection",
+          "context": "Audio guide is excellent. Don't miss the letters section.",
+          "priority": "mustDo",
+          "emotionalTagline": "200 paintings that trace a tortured genius",
+          "dontMiss": ["Sunflowers", "Almond Blossom", "The Bedroom"]
+        },
+        {
+          "time": "6:00 PM",
+          "place": "Canal Cruise",
+          "what": "Evening boat tour",
+          "context": "Smaller boats are better than big tourist barges. Some offer wine and cheese.",
+          "priority": "flexible",
+          "emotionalTagline": "The only way to truly understand Amsterdam's layout"
+        }
+      ],
+      "untimedActivities": [
+        {
+          "place": "Winkel 43",
+          "what": "Best apple pie in Amsterdam",
+          "context": "In the Jordaan. Get it warm with whipped cream.",
+          "priority": "flexible",
+          "category": "Food"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-19",
+      "destination": "Amsterdam → London",
+      "timedActivities": [
+        {
+          "time": "9:00 AM",
+          "place": "Vondelpark",
+          "what": "Morning walk in the city park",
+          "context": "Rent a bike from the hotel and ride through like a local.",
+          "priority": "flexible",
+          "emotionalTagline": "Amsterdam's green lung"
+        },
+        {
+          "time": "12:00 PM",
+          "place": "Amsterdam Centraal",
+          "what": "Eurostar to London",
+          "context": "4 hours including transfer in Brussels. UK border control happens in Amsterdam.",
+          "priority": "mustDo",
+          "emotionalTagline": "Under the Channel in style"
+        },
+        {
+          "time": "5:00 PM",
+          "place": "London St Pancras",
+          "what": "Arrive in London",
+          "context": "Beautiful Victorian station. The champagne bar is worth a stop.",
+          "priority": "mustDo"
+        },
+        {
+          "time": "7:30 PM",
+          "place": "Borough Market Area",
+          "what": "Dinner near the Thames",
+          "context": "Market closes at 5pm but restaurants stay open. Padella for fresh pasta.",
+          "priority": "flexible",
+          "emotionalTagline": "London's foodie ground zero"
+        }
+      ],
+      "untimedActivities": []
+    },
+    {
+      "date": "2026-06-20",
+      "destination": "London, England",
+      "timedActivities": [
+        {
+          "time": "9:00 AM",
+          "place": "Tower of London",
+          "what": "Crown Jewels and history",
+          "context": "Go straight to the Crown Jewels when it opens. Join a Yeoman Warder tour - they're free and hilarious.",
+          "priority": "mustDo",
+          "emotionalTagline": "1,000 years of royal drama",
+          "dontMiss": ["Crown Jewels", "White Tower", "Ravens"]
+        },
+        {
+          "time": "12:30 PM",
+          "place": "Borough Market",
+          "what": "Lunch at London's oldest food market",
+          "context": "Open Thursday-Saturday. Get there before 1pm to avoid the worst crowds.",
+          "priority": "flexible",
+          "emotionalTagline": "Every cheese, bread, and cured meat you can imagine"
+        },
+        {
+          "time": "2:30 PM",
+          "place": "Tate Modern",
+          "what": "Free modern art museum",
+          "context": "Former power station. The Turbine Hall installations are always impressive.",
+          "priority": "flexible",
+          "emotionalTagline": "Where a urinal became art history"
+        },
+        {
+          "time": "5:00 PM",
+          "place": "South Bank Walk",
+          "what": "Walk along the Thames",
+          "context": "From Tate Modern to Westminster Bridge. Pass Shakespeare's Globe and the London Eye.",
+          "priority": "flexible",
+          "emotionalTagline": "London's best free attraction"
+        },
+        {
+          "time": "7:30 PM",
+          "place": "West End Theatre",
+          "what": "Evening show",
+          "context": "Book in advance for popular shows. TKTS booth in Leicester Square has same-day discounts.",
+          "priority": "flexible",
+          "emotionalTagline": "Broadway's older, more sophisticated sibling"
+        }
+      ],
+      "untimedActivities": [
+        {
+          "place": "Dishoom",
+          "what": "Bombay-style breakfast or dinner",
+          "context": "Multiple locations. The bacon naan roll is legendary. Expect queues.",
+          "priority": "mustDo",
+          "category": "Food"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-21",
+      "destination": "London, England",
+      "timedActivities": [
+        {
+          "time": "9:30 AM",
+          "place": "British Museum",
+          "what": "World history under one roof",
+          "context": "Free entry. The Rosetta Stone and Parthenon Marbles are must-sees.",
+          "priority": "mustDo",
+          "emotionalTagline": "Everything humanity ever stole, beautifully displayed",
+          "dontMiss": ["Rosetta Stone", "Egyptian mummies", "Parthenon sculptures"]
+        },
+        {
+          "time": "1:00 PM",
+          "place": "Covent Garden",
+          "what": "Lunch and street performers",
+          "context": "The market has good food stalls. Watch for the opera singers in the main hall.",
+          "priority": "flexible",
+          "emotionalTagline": "London's living room"
+        },
+        {
+          "time": "3:00 PM",
+          "place": "Westminster Abbey",
+          "what": "Royal coronation church",
+          "context": "Every monarch since 1066 crowned here. Newton, Darwin, and Dickens are buried inside.",
+          "priority": "flexible",
+          "emotionalTagline": "Where kings become kings"
+        },
+        {
+          "time": "5:00 PM",
+          "place": "Buckingham Palace",
+          "what": "Watch the Changing of the Guard",
+          "context": "Happens at 11am daily in summer, but the palace exterior is best in late afternoon light.",
+          "priority": "flexible",
+          "emotionalTagline": "The world's most famous house"
+        },
+        {
+          "time": "7:00 PM",
+          "place": "Sky Garden",
+          "what": "Free rooftop bar with views",
+          "context": "Book free tickets in advance. Great sunset spot - arrive 30 minutes early.",
+          "priority": "flexible",
+          "emotionalTagline": "The best free view in London"
+        }
+      ],
+      "untimedActivities": [
+        {
+          "place": "Pub Crawl",
+          "what": "Historic London pubs",
+          "context": "The Lamb and Flag, Ye Olde Cheshire Cheese, The George Inn - all have 400+ years of history.",
+          "priority": "flexible",
+          "category": "Tip"
+        }
+      ]
+    }
+  ]
+}

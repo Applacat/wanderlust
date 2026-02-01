@@ -1,0 +1,34 @@
+# Secrets - NEVER commit API keys
+Wanderlust/Secrets.plist
+
+# Development folders (not shipped)
+.claude/
+docs/
+cal/
+
+# Xcode
+*.xcuserstate
+*.xcuserdatad/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods (if used)
+Pods/
