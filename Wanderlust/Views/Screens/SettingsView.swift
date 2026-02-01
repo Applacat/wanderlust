@@ -85,7 +85,7 @@ struct SettingsView: View {
                     Text("API Key")
                 } footer: {
                     if isUsingPlistKey {
-                        Text("Using key from Info.plist. Enter a key here to override.")
+                        Text("Using key from Secrets.plist. Enter a key here to override.")
                     } else {
                         Text("Your API key is stored securely on your device.")
                     }

@@ -95,14 +95,18 @@ final class DataLoader {
         let existingDays = (try? modelContext.fetch(descriptor)) ?? []
 
         guard existingDays.isEmpty else {
+            #if DEBUG
             print("DataLoader: Data already exists, skipping load")
+            #endif
             return
         }
 
         // Load from JSON
         guard let url = Bundle.main.url(forResource: "EuropeTrip", withExtension: "json"),
               let data = try? Data(contentsOf: url) else {
+            #if DEBUG
             print("DataLoader: Could not find EuropeTrip.json")
+            #endif
             return
         }
 
@@ -114,7 +118,9 @@ final class DataLoader {
 
             for dayData in tripData.days {
                 guard let date = dateFormatter.date(from: dayData.date) else {
+                    #if DEBUG
                     print("DataLoader: Could not parse date \(dayData.date)")
+                    #endif
                     continue
                 }
 
@@ -171,10 +177,14 @@ final class DataLoader {
             }
 
             try modelContext.save()
+            #if DEBUG
             print("DataLoader: Successfully loaded \(tripData.days.count) days")
+            #endif
 
         } catch {
+            #if DEBUG
             print("DataLoader: Error loading data - \(error)")
+            #endif
         }
     }
 }

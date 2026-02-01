@@ -12,10 +12,10 @@ extension Color {
     // MARK: - Primary Palette (Sunset Ocean Theme)
 
     /// Sunset Coral - Primary color for CTAs, highlights, active states
-    static let wanderlustTeal = Color(hex: "E8937D")
+    static let wanderlustCoral = Color(hex: "E8937D")
 
-    /// Ocean Blue - Secondary actions, tags, calming contrast
-    static let wanderlustCoral = Color(hex: "4A7D94")
+    /// Ocean Teal - Secondary actions, tags, calming contrast
+    static let wanderlustTeal = Color(hex: "4A7D94")
 
     /// Sand Gold - Must-do priority badge, warm highlight
     static let wanderlustGold = Color(hex: "E8CEB0")

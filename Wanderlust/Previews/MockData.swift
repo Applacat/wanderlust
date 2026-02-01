@@ -2,8 +2,7 @@
 //  MockData.swift
 //  Wanderlust
 //
-//  Preview-only mock data for exploring interaction models
-//  This file should NOT be included in production builds
+//  Mock data for SwiftUI previews
 //
 
 import Foundation
