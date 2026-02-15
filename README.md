@@ -138,4 +138,4 @@ Maybe the adversarial review forced cleaner schemas. Maybe the open-ended `warni
 
 ---
 
-MIT license. Do whatever.
+MIT Licensed.
